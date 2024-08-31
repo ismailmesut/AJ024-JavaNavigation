@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
+    id "androidx.navigation.safeargs"
 }
+
 
 android {
     namespace 'com.ismailmesutmujde.javanavigation'
